@@ -1,0 +1,59 @@
+.toggle-button {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ebebeba3;
+  border: 2px solid #ebebeba3;
+  border-radius: 16px;
+  height: 32px;
+  font-size: 16px;
+  transition: 0.2s;
+  margin: 4px;
+}
+
+.toggle-button:hover {
+  color: #61dbfb;
+  border: 2px solid #61dbfb;
+  transition: 0.2s;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-input {
+  height: 32px;
+  margin: 4px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #ebebeba3;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-right: 4px;
+}
+
+.delete-button {
+  background-color: #00000000;
+  border-radius: 16px;
+  border: 2px solid #00000000;
+  color: #ebebeba3;
+  transition: 0.25s;
+}
+
+.delete-button:hover {
+  color: #e73939;
+  border-color: #e73939;
+  transition: 0.25s;
+  border: 2px solid;
+}
